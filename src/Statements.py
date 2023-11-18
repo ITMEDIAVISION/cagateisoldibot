@@ -8,39 +8,39 @@ IT = Language()
 
 # --- IT Statements --- #
     # Text message
-IT.Start = "Hey, Netflixers! 😎\nCon chi di voi $$ condivide l'account? 👇"
-IT.UseThis = "⚠️ Una procedura di configurazione è già attiva, usa questo messaggio. ☝️\n\nSe è stato accidentalmente eliminato, ricomincia la configurazione premendo qui 👇"
-IT.ConfirmList = "Confermi la lista di partecipanti?"
-IT.Schedule = "📆 In che *giorno del mese* viene rinnovato il tuo abbonamento?"
-IT.ConfirmSchedule = "Confermi che il tuo abbonamento a Netflix viene rinnovato il giorno *$$*?"
-IT.Done = "Finito! Quindi...\n\n🎬 I Netflixers sono:\n*$$*\n📆 L'abbonamento si rinnova il *$$* di ogni mese.\n🔔 Le notifiche sono *attive*.\n\nBuona visione! 😎"
-IT.TimeToPay = "📢 Un altro mese è passato, per poter continuare a guardare tutte le serie TV su Netflix è necessario pagare la propria parte.\n\nSono *$$€ a testa*. 💸"
-IT.EveryonePaid = "Tutti hanno pagato la propria parte! Prossimo appuntamento il *$$*.\n\n*Buon Netflix!* 😎"
-IT.AlreadyConfigured = "Le impostazioni per questo gruppo sono già state confermate oppure una procedura di configurazione è in corso. Se hai bisogno di ripartire da zero, premi sotto"
-IT.NewConfig = "Per riconfigurare il gruppo, premi 👉 /start"
-IT.ConfirmReset = "Sicuro di voler resettare le impostazioni? *Questa azione è irreversibile.*"
-IT.PaymentAccepted = "Il pagamento di $$ è stato *accettato*! ✅"
+IT.Start = "Hey, Netflixers! 😎\nWho among you $$ shares the account with? 👇"
+IT.UseThis = "⚠️ A setup procedure is already active, use this message. ☝️\n\nIf it was accidentally deleted, restart the setup by pressing here 👇"
+IT.ConfirmList = "Do you confirm the list of participants?"
+IT.Schedule = "📆 On what *day of the month* does your subscription renew?"
+IT.ConfirmSchedule = "Do you confirm that your Netflix subscription renews on the *$$*?"
+IT.Done = "Done! So...\n\n🎬 The Netflixers are:\n*$$*\n📆 The subscription renews on the *$$* of every month.\n🔔 Notifications are *active*.\n\nEnjoy watching! 😎"
+IT.TimeToPay = "📢 Another month has passed, to continue watching all the TV series on Netflix you need to pay your part.\n\nIt's *$$€ each*. 💸"
+IT.EveryonePaid = "Everyone has paid their share! Next appointment on *$$*.\n\n*Enjoy Netflix!* 😎"
+IT.AlreadyConfigured = "Settings for this group have already been confirmed or a configuration procedure is in progress. If you need to start over, press below"
+IT.NewConfig = "To reconfigure the group, press 👉 /start"
+IT.ConfirmReset = "Are you sure you want to reset the settings? *This action is irreversible.*"
+IT.PaymentAccepted = "The payment of $$ has been *accepted*! ✅"
     # Callback query
-IT.MaxReached = "⚠️ E' già stato raggiunto il numero massimo di partecipanti (4)!"
-IT.AlreadySigned = "Sei già un Netflixers! 😎\nSe hai premuto per sbaglio oppure hai cambiato idea, puoi cancellarti dalla lista facendo un tap sul tuo nome."
-IT.AtLeastOneUser = "⚠️ E' necessario almeno un partecipante per andare avanti."
-IT.NotAdmin = "Non sei tu l'amministratore, mi dispiace. 🙁"
-IT.AlreadyPayed = '$$ ha già pagato! 💰'
-IT.Resetted = 'Le impostazioni del gruppo sono state resettate con successo! ✅'
-IT.NotPermitted = '️⚠️ Azione non permessa.'
-IT.Added = "Aggiunto ✅"
-IT.Removed = "Rimosso ✅"
-IT.IsWaiting = "⚠️ Sei già in attesa di conferma."
-IT.WaitingFor = "⏳ Attendi la conferma dell'avvenuto pagamento da parte dell'amministratore."
-IT.AlmostDone = "⏳ Ci siamo quasi..."
+IT.MaxReached = "⚠️ The maximum number of participants (4) has already been reached!"
+IT.AlreadySigned = "You're already a Netflixer! 😎\nIf you pressed by mistake or changed your mind, you can unsubscribe from the list by tapping on your name."
+IT.AtLeastOneUser = "⚠️ At least one participant is required to proceed."
+IT.NotAdmin = "You're not the administrator, sorry. 🙁"
+IT.AlreadyPayed = '$$ has already paid! 💰'
+IT.Resetted = 'The group settings have been successfully reset! ✅'
+IT.NotPermitted = '️⚠️ Action not permitted.'
+IT.Added = "Added ✅"
+IT.Removed = "Removed ✅"
+IT.IsWaiting = "⚠️ You are already waiting for confirmation."
+IT.WaitingFor = "⏳ Waiting for the administrator to confirm the payment has been received."
+IT.AlmostDone = "⏳ Almost there..."
     # Private Chat Statements
-IT.Welcome = ("Ciao *$$*! Io sono un bot, e ti aiuterò a gestire il tuo gruppo Netflix. 😊\n\n"
-             "Prima di cominciare devi sapere che sono ancora in uno stadio di sviluppo _alpha_, potrebbero quindi verificarsi comportamenti non previsti. "
-             "Se riscontri qualche tipo di problema, o per qualsiasi altra cosa, ti invito a contattare il mio programmatore @LinkOut, sarà lieto di aiutarti. "
-             "Se sei un programmatore anche tu, puoi trovarmi su [GitHub](https://github.com/xLinkOut/cagateisoldibot).\n\n"
-             "Ecco qualche informazione utile: per funzionare, aggiungimi in un gruppo usando il nickname @cagateisoldibot. "
-             "Il primo step sarà quello di 📝 segnare tutte le persone che condividono Netflix con te, poi seguirà una velocissima configurazione dove potrai indicare il 📆 giorno del mese in cui l'abbonamento si rinnova. "
-             "In quel giorno, ogni mese, manderò una notifica con una lista dove le persone che hanno pagato potranno segnarsi, e dove poi dovrai confermare il pagamento.\n\n"
-             "*That's it!* Nuove funzioni sono in sviluppo. Questo progetto è completamente gratuito, ma i server costano; se sei interessato a partecipare trovi il tasto 🎁 Dona nella tastiera in basso.")
-IT.Donate = "Per supportare il progetto puoi donare tramite PayPal a [questa pagina](https://paypal.me/LCirillo). ❤️"
+IT.Welcome = ("Hello *$$*! I am a bot, and I will help you manage your Netflix group. 😊\n\n"
+             "Before starting you should know that I am still in an _alpha_ development stage, so unexpected behavior might occur. "
+             "If you encounter any problems, or for anything else, please contact my programmer @LinkOut, he will be happy to help. "
+             "If you are a programmer too, you can find me on [GitHub](https://github.com/xLinkOut/cagateisoldibot).\n\n"
+             "Here's some useful information: to function, add me to a group using the nickname @cagateisoldibot. "
+             "The first step will be to 📝 mark all the people who share Netflix with you, then a quick setup will follow where you can indicate the 📆 day of the month when the subscription renews. "
+             "On that day, every month, I will send a notification with a list where people who have paid can sign up, and where you will then have to confirm the payment.\n\n"
+             "*That's it!* New features are in development. This project is completely free, but servers cost; if you are interested in contributing you will find the 🎁 Donate button in the keyboard below.")
+IT.Donate = "To support the project you can donate via PayPal on [this page](https://paypal.me/LCirillo). ❤️"
 IT.About = "Made with ❤️ and a lot of `</code>` by @LinkOut. 👨‍💻"
